@@ -1,0 +1,21 @@
+server:
+  port: 8084
+spring:
+  application:
+    name: tickets
+  datasource:
+    password: password
+    url: jdbc:postgresql://localhost:4300/tickets
+    username: knops
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    show-sql: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
