@@ -10,6 +10,7 @@
 		<module>apigw</module>
         <module>eureka-server</module>
         <module>tickets</module>
+        <module>gateway</module>
     </modules>
 
 	<groupId>com.kn-ops</groupId>

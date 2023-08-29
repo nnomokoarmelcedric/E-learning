@@ -11,6 +11,7 @@
         <module name="tickets" />
         <module name="eureka-server" />
         <module name="authentification" />
+        <module name="gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
