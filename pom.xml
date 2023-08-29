@@ -7,7 +7,9 @@
     <modules>
         <module>videos</module>
 		<module>authentification</module>
-		<module>apigw</module>
+
+
+
         <module>eureka-server</module>
         <module>tickets</module>
         <module>gateway</module>
