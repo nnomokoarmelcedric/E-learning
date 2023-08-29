@@ -32,12 +32,6 @@
         </dependency>
 
         <dependency>
-            <groupId>com.kn-ops</groupId>
-            <artifactId>authentification</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
             <groupId>io.jsonwebtoken</groupId>
             <artifactId>jjwt-api</artifactId>
             <version>0.11.5</version>

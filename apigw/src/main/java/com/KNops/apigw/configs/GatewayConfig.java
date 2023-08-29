@@ -16,12 +16,12 @@ public class GatewayConfig {
     @Bean
     public RouteLocator routes(RouteLocatorBuilder builder) {
         return builder.routes()
-                .route("authentification", r -> r.path("/knops/auth/**")
+                .route("Authentification", r -> r.path("/knops/auth/**")
                         .filters(f -> f.filter(filter))
-                        .uri("lb://AUTHENTIFICATION"))
-                .route("videos", r -> r.path("/videos/**")
+                        .uri("lb://Authentification"))
+                .route("Videos", r -> r.path("/videos/**")
                         .filters(f -> f.filter(filter))
-                        .uri("lb://VIDEOS"))
+                        .uri("lb://Videos"))
                 .build();
     }
 }
