@@ -17,6 +17,7 @@ public class Video {
     private Long id;
 
     private String name;
+    private String description;
     private String contentType;
 
     @Lob
