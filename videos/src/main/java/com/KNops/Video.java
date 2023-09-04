@@ -11,6 +11,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Data
 @NoArgsConstructor
+
 public class Video {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -22,6 +23,13 @@ public class Video {
 
     @Lob
     private byte[] data;
+
+    public Video(String name, String description, String contentType, byte[] data) {
+        this.name = name;
+        this.description = description;
+        this.contentType = contentType;
+        this.data = data;
+    }
 
     // Getters and setters
 }
